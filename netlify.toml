@@ -1,5 +1,5 @@
 
 [build] 
   base = "/alansito24"
-  publish = "/alansito24"
-  command = "npm run build'"
+  command = "npm run build"
+  publish = "alansito24"
