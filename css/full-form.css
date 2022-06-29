@@ -1,0 +1,12 @@
+input:not([type="submit"]) + .input-requirements {
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 1s ease-out;  
+}
+
+input:not([type="submit"]):hover + .input-requirements,
+input:not([type="submit"]):focus + .input-requirements,
+input:not([type="submit"]):active + .input-requirements {
+  max-height: 1000px; /* Cualquier numero grande (mas grande que la lista de .input-requerimientos) */
+  transition: max-height 1s ease-in;
+}
