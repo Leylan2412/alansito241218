@@ -8,6 +8,9 @@ var cacheAssets = [
     'contacto.html',
     '/js/main.js',
     '/css/style.css',
+    '/img/acerca-de.png',
+    '/img/vision.jpg',
+    '/img/mision.webp',
     '/img/sw.jpeg'
 ]
 
